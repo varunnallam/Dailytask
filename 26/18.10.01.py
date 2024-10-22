@@ -338,13 +338,11 @@ print(dict)
 # : Track the count of the letters from the string.
 #Sample string : 'skywavessoftwares'
  
-str1 = "skywavessoftwares"
-dict1 = {}
-
-for char in str1:
-    if char in dict1:
-        dict1[char] += 1
+s="skywavessoftwares"
+dict={}
+for i in s:
+    if i in dict:
+        dict[i]=dict[i]+1
     else:
-        dict1[char] = 1
-
-print(dict1)
+        dict[i]=+1
+print(dict)
